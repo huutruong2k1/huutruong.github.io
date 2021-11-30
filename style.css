@@ -1,0 +1,21 @@
+body{
+    background-color:antiquewhite;
+    padding: 50px;
+    color:black;
+}
+
+.button{
+    margin-bottom: 20px;
+    background-color:aqua  ;
+    border: 0;
+    width: 200px;
+    padding: 15px 0 15px 0;
+    border-radius: 100px;
+    transition-duration: 0.3s;
+    transition-property: color, background-color;
+}
+
+.button:hover{
+    color: black;
+    background-color:blue;
+}
